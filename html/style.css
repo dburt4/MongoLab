@@ -1,0 +1,125 @@
+.header{
+	 background-color: cornflowerblue;
+	height: 100px;
+	width: 100%;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-family: monospace;
+}
+
+body{
+	background-color:#DDDDDD;
+}
+
+.about-me{
+	margin: 15px  auto;
+	width: 500px;
+	text-align: center;
+	
+
+}
+
+.forecast-container{
+	margin:0 auto;
+	width: 400px;
+	
+}
+
+#weather-title{
+	text-align: center;
+}
+
+.sun-container{
+	width:400px;
+	height:400px;
+	margin: 50px auto;		
+}
+
+.weather-icon{
+	width:200px;
+	height: 200px;
+	background-color:gold ;
+	border-radius: 100px;
+	margin: 0 auto;
+	
+}
+
+.arrow-up{
+	width: 0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid gold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 18px;
+}
+
+.arrow-down{
+	width: 0;
+	height: 0;
+	border-top: 50px solid gold;
+	border-right: 25px solid transparent;
+	border-left: 25px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+}
+
+.header > a{
+	color: red;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+table{
+	border: 1px solid black;
+	margin: 15px auto;
+	width: 500px;
+}
+
+h1{
+	margin: 0 auto;
+}
+
+td{
+	border: 1px solid black;
+}
+
+.weather-info-container{
+	margin: 90px auto;
+	width: 400px;
+	text-align: center; 
+}
+
+
+.weather-links{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 20px;
+	text-decoration: blink;
+
+}
+
+.form{
+	margin-top: 50px;
+}
+
+
+.cool-image{
+	width: inherit;	
+}
+
+.cool-image-container{
+	width: 300px;
+	margin: 30px auto;
+}
+
+img{
+	border: 1px dashed red;
+	padding:15px;
+}
