@@ -4,7 +4,20 @@
  <head>
 
 		<title>My aweomse website</title>
-<link href="style.css" type="text/css" rel="stylesheet"/></head>
+<link href="style.css" type="text/css" rel="stylesheet"/>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></scirpt>
+<script>
+	$(document).ready(function(){
+		var myObj = {Name:$("#Name").val(), Comment:$("#Comment").val()};
+		var jObj = JSON.stringify(myObj);
+		$("#json").text(jObj);
+	}
+			
+
+</script>
+
+
+</head>
   
  <body>
   <div class="header">My page
@@ -13,12 +26,15 @@
 </div>
   <p>Leave us some feedback:</p>
   <form>
-   First name: <input type="text"><br>
-   Last name: <input type="text"><br>
-   Suggestions: <input type="text"><br>
-   <button>SUBMIT</button>
+   First name: <input id="Name" type="text"><br>
+  
+   Suggestions: <input id="Comment" type="text"><br>
 
   </form>
+
+   <button>SUBMIT</button>
+	<div id="json"></div>
+
 
 </body>
 </HTML>

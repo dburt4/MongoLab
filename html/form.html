@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<script src ="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<form id="commentForm" action="">
+	Name: <input type="text" id="Name" name="Name" value="your name"><br>
+	comment: <input type="text" id="Comment" name="Comment" value="Hello"><br>
+</form>
+<button id="commentButton">Submit comment</button>
+<button id="show">Show comments</button>
+<div id="json"></div>
+<div id="done">DONE:</div>
+
+<script>
+
+
+$("#commentButton").click(function(){
+//	console.log($("#Name").val() + " " + $("#Comment").val());
+	var myObj = {Name:$("#Name").val(),Comment:$("#Comment").val()};
+	//var myObj = {};	
+	//alert(JSON.stringify(myObj));
+	var jobj = JSON.stringify(myObj);
+//	alert(jobj);
+	$("#json").text(jobj); 
+	
+	var url = "http://52.1.69.124/comment";
+	$.post(url, jobj, function(data, textStatus){
+		$("#done").append(textStatus);
+	});
+
+	
+});
+
+$("#show").click(function(){
+	var url = "http://52.1.69.124/comment";
+	$.getJSON(url, function(data){
+		var everything;
+		everything = '<ul>';
+		$.each(data, function(i, item){
+			everything += '<li>Name: ' + data[i].Name + ' Comment: ' + data[i].Comment;
+
+		});
+		everything += '</ul>';
+		$("#done").html(everything);
+
+
+	});
+
+
+});
+
+</script>
+
+
+</body>
+</html>

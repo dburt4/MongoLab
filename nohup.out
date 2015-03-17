@@ -1,0 +1,35 @@
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.<anonymous> (/var/node/testServer.js:82:4)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.<anonymous> (/var/node/testServer.js:82:4)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+about to fork child process, waiting until server is ready for connections.
+forked process: 8666
+all output going to: /var/log/mongodb.log
+log file [/var/log/mongodb.log] exists; copied to temporary file [/var/log/mongodb.log.2015-03-17T22-28-22]
+child process started successfully, parent exiting
