@@ -1,6 +1,31 @@
 nohup: ignoring input
-about to fork child process, waiting until server is ready for connections.
-forked process: 13774
-all output going to: /var/log/mongodb.log
-log file [/var/log/mongodb.log] exists; copied to temporary file [/var/log/mongodb.log.2015-03-13T05-21-48]
-ERROR: child process failed, exited with error number 100
+ERROR: unknown option fork
+
+MongoDB shell version: 2.4.8
+usage: mongo [options] [db address] [file names (ending in .js)]
+db address can be:
+  foo                   foo database on local machine
+  192.169.0.5/foo       foo database on 192.168.0.5 machine
+  192.169.0.5:9999/foo  foo database on 192.168.0.5 machine on port 9999
+options:
+  --shell                               run the shell after executing files
+  --nodb                                don't connect to mongod on startup - no
+                                        'db address' arg expected
+  --norc                                will not run the ".mongorc.js" file on 
+                                        start up
+  --quiet                               be less chatty
+  --port arg                            port to connect to
+  --host arg                            server to connect to
+  --eval arg                            evaluate javascript
+  -u [ --username ] arg                 username for authentication
+  -p [ --password ] arg                 password for authentication
+  --authenticationDatabase arg          user source (defaults to dbname)
+  --authenticationMechanism arg (=MONGODB-CR)
+                                        authentication mechanism
+  -h [ --help ]                         show this usage information
+  --version                             show version information
+  --verbose                             increase verbosity
+  --ipv6                                enable IPv6 support (disabled by 
+                                        default)
+
+file names: a list of files to run. files have to end in .js and will exit after unless --shell is specified

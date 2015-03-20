@@ -1,11 +1,269 @@
 nohup: ignoring input
-
-module.js:340
-    throw err;
-          ^
-Error: Cannot find module '/var/node/static.js'
-    at Function.Module._resolveFilename (module.js:338:15)
-    at Function.Module._load (module.js:280:25)
-    at Function.Module.runMain (module.js:497:10)
-    at startup (node.js:119:16)
-    at node.js:901:3
+html/weather.html
+URL path /weather.html
+URL search 
+URL query undefined
+html/style.css
+URL path /style.css
+URL search 
+URL query undefined
+html/form.html
+URL path /form.html
+URL search 
+URL query undefined
+COMMENT ROUTE
+IN GET
+Documenet array: 
+[ { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550264dad1ea480234c1c52c },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550267ab23fed71f3445fed5 },
+  { Name: 'Master Chief',
+    Comment: 'Let\'s end this',
+    _id: 550267c123fed71f3445fed6 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026b66c22cd27d34c2eb3e },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026f47f5c316263542d36f },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f5df5c316263542d370 },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f65f5c316263542d371 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55027154a2493a543571c826 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271bd7b54a56e35646ba0 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271c97b54a56e35646ba1 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271ce7b54a56e35646ba2 },
+  { Name: 'your name',
+    Comment: 'Hello!@#',
+    _id: 55027309f2dfe3a6356c6cea },
+  { Name: '!!!', Comment: '!!!', _id: 5508abf87f31208b22042b1f },
+  { Name: '!!!', Comment: '!!!', _id: 5508ac737f31208b22042b20 },
+  { Name: '!!!', Comment: '!!!222', _id: 5508aca57f31208b22042b21 } ]
+COMMENT ROUTE
+COMMENT POST ROUTE
+{ Name: 'your name', Comment: 'Hello' }
+Name: your name
+Comment:Hello
+Record added as 5508b30b4ca5b03423b76174
+COMMENT ROUTE
+IN GET
+Documenet array: 
+[ { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550264dad1ea480234c1c52c },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550267ab23fed71f3445fed5 },
+  { Name: 'Master Chief',
+    Comment: 'Let\'s end this',
+    _id: 550267c123fed71f3445fed6 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026b66c22cd27d34c2eb3e },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026f47f5c316263542d36f },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f5df5c316263542d370 },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f65f5c316263542d371 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55027154a2493a543571c826 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271bd7b54a56e35646ba0 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271c97b54a56e35646ba1 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271ce7b54a56e35646ba2 },
+  { Name: 'your name',
+    Comment: 'Hello!@#',
+    _id: 55027309f2dfe3a6356c6cea },
+  { Name: '!!!', Comment: '!!!', _id: 5508abf87f31208b22042b1f },
+  { Name: '!!!', Comment: '!!!', _id: 5508ac737f31208b22042b20 },
+  { Name: '!!!', Comment: '!!!222', _id: 5508aca57f31208b22042b21 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b30b4ca5b03423b76174 } ]
+html/form.html
+URL path /form.html
+URL search 
+URL query undefined
+COMMENT ROUTE
+COMMENT POST ROUTE
+{ Name: 'your name', Comment: 'Hello' }
+Name: your name
+Comment:Hello
+Record added as 5508b3184ca5b03423b76175
+COMMENT ROUTE
+IN GET
+Documenet array: 
+[ { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550264dad1ea480234c1c52c },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550267ab23fed71f3445fed5 },
+  { Name: 'Master Chief',
+    Comment: 'Let\'s end this',
+    _id: 550267c123fed71f3445fed6 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026b66c22cd27d34c2eb3e },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026f47f5c316263542d36f },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f5df5c316263542d370 },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f65f5c316263542d371 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55027154a2493a543571c826 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271bd7b54a56e35646ba0 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271c97b54a56e35646ba1 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271ce7b54a56e35646ba2 },
+  { Name: 'your name',
+    Comment: 'Hello!@#',
+    _id: 55027309f2dfe3a6356c6cea },
+  { Name: '!!!', Comment: '!!!', _id: 5508abf87f31208b22042b1f },
+  { Name: '!!!', Comment: '!!!', _id: 5508ac737f31208b22042b20 },
+  { Name: '!!!', Comment: '!!!222', _id: 5508aca57f31208b22042b21 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b30b4ca5b03423b76174 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b3184ca5b03423b76175 } ]
+COMMENT ROUTE
+IN GET
+Documenet array: 
+[ { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550264dad1ea480234c1c52c },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550267ab23fed71f3445fed5 },
+  { Name: 'Master Chief',
+    Comment: 'Let\'s end this',
+    _id: 550267c123fed71f3445fed6 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026b66c22cd27d34c2eb3e },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026f47f5c316263542d36f },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f5df5c316263542d370 },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f65f5c316263542d371 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55027154a2493a543571c826 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271bd7b54a56e35646ba0 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271c97b54a56e35646ba1 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271ce7b54a56e35646ba2 },
+  { Name: 'your name',
+    Comment: 'Hello!@#',
+    _id: 55027309f2dfe3a6356c6cea },
+  { Name: '!!!', Comment: '!!!', _id: 5508abf87f31208b22042b1f },
+  { Name: '!!!', Comment: '!!!', _id: 5508ac737f31208b22042b20 },
+  { Name: '!!!', Comment: '!!!222', _id: 5508aca57f31208b22042b21 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b30b4ca5b03423b76174 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b3184ca5b03423b76175 } ]
+COMMENT ROUTE
+COMMENT POST ROUTE
+{ Name: 'your name', Comment: 'Hello' }
+Name: your name
+Comment:Hello
+Record added as 5508b31b4ca5b03423b76176
+COMMENT ROUTE
+IN GET
+Documenet array: 
+[ { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550264dad1ea480234c1c52c },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550267ab23fed71f3445fed5 },
+  { Name: 'Master Chief',
+    Comment: 'Let\'s end this',
+    _id: 550267c123fed71f3445fed6 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026b66c22cd27d34c2eb3e },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55026f47f5c316263542d36f },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f5df5c316263542d370 },
+  { Name: 'Daniel BUrt',
+    Comment: 'Hello!!!!',
+    _id: 55026f65f5c316263542d371 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 55027154a2493a543571c826 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271bd7b54a56e35646ba0 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271c97b54a56e35646ba1 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 550271ce7b54a56e35646ba2 },
+  { Name: 'your name',
+    Comment: 'Hello!@#',
+    _id: 55027309f2dfe3a6356c6cea },
+  { Name: '!!!', Comment: '!!!', _id: 5508abf87f31208b22042b1f },
+  { Name: '!!!', Comment: '!!!', _id: 5508ac737f31208b22042b20 },
+  { Name: '!!!', Comment: '!!!222', _id: 5508aca57f31208b22042b21 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b30b4ca5b03423b76174 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b3184ca5b03423b76175 },
+  { Name: 'your name',
+    Comment: 'Hello',
+    _id: 5508b31b4ca5b03423b76176 } ]

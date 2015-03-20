@@ -24,16 +24,27 @@ $("#commentButton").click(function(){
 //	alert(jobj);
 	$("#json").text(jobj); 
 	
-	var url = "http://52.1.69.124/comment";
+	var url = "/comment";
+	/*
 	$.post(url, jobj, function(data, textStatus){
 		$("#done").append(textStatus);
 	});
-
+	*/
+	jQuery.ajax({
+		url: url,
+		type:"POST",
+		data: jobj,
+		dataType: "json",
+		contentType: "application/json; charset=utf-8",
+		success: function(){
+			$("#done").append("Success");
+		}
+	});
 	
 });
 
 $("#show").click(function(){
-	var url = "http://52.1.69.124/comment";
+	var url = "/comment";
 	$.getJSON(url, function(data){
 		var everything;
 		everything = '<ul>';

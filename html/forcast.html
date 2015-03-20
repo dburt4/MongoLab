@@ -74,7 +74,7 @@ $("#cityField").keyup(function(){
 	//alert("Hello world!");
 
 	var url;
-	url = "52.1.69.124/forcast.html/getcity/?q=";
+	url = "/getcity/?q=";
 	url += $("#cityField").val();
 	console.log("URL: " + url);
 	$.getJSON(url,function(data){
